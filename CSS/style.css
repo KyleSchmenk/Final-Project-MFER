@@ -1,76 +1,34 @@
+* {
+    box-sizing: border-box;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
 body, html {
     height: 100%;
     font-family: 'Lobster', cursive;
     font-family: 'Open Sans', sans-serif;
 }
 
+.logo {
+    height: 100px;
+    width: 100px;
+}
+
 /* The hero image */
 .hero-image {
   /* Use "linear-gradient" to add a darken background effect to the image (photographer.jpg). This will make the text easier to read */
-  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("photographer.jpg");
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../IMG/Hero-img-pokemon.webp");
 
   /* Set a specific height */
-  height: 50%;
+  height: 750px;
 
   /* Position and center the image to scale nicely on all screens */
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
   position: relative;
-}
-
-/* Place text in the middle of the image */
-.hero-text {
-  text-align: center;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  color: white;
-}
-
-/* The Parallax Img */
-
-.slide {
-    height: 750px;
-}
-
-.slide-1 {
-    background-image: url(../IMG/pokeball.jpg) ;
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-}
-
-.slide-2 {
-    background-image: url(../IMG/detectivepika.jpg) ;
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-}
-
-.slide-3 {
-    background-image: url(../IMG/gamboygames.jpg) ;
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-}
-
-.slide-4 {
-    background-image: url(../IMG/pokemoncards.jpg) ;
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-}
-
-.slide-5 {
-    background-image: url(../IMG/charzardcards2.jpg) ;
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
 }
