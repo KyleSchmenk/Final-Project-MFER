@@ -23,59 +23,63 @@
 
   <!-- Start of my Header! -->
 
-  <Header class="">
+  <Header>
 
     <div class="logo">
-      <img src="img/logo-pokeball.png" alt="">
+      <img src="img/logo-pokeball.png" alt="Pokeball">
     </div>
 
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
-      <a class="navbar-brand" href="#">The World Of Pokemon</a>
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
 
-      <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-        <div class="navbar-nav">
-          <a class="nav-item nav-link active" href="#">Trainers<span class="sr-only">(current)</span></a>
-          <a class="nav-item nav-link" href="#">Pokemon</a>
-          <a class="nav-item nav-link" href="#">Contact Us</a>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">The World Of Pokemon</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+          <div class="navbar-nav">
+            <a class="nav-link active" aria-current="page" href="#trainers">Trainers</a>
+            <a class="nav-link" href="#pokemon">Pokemon</a>
+            <a class="nav-link" href="#contact">Contact Us</a>
+          </div>
         </div>
       </div>
     </nav>
+    
 
   </Header>
   <!-- Start of my Hero Img! -->
 
-    <div class="hero-image text-white d-flex">
+    <div class="d-flex hero-image text-white ">
       <div class="hero-text justify-content-center align-items-center">
-        <h1>I am John Doe</h1>
+        <h1>Welcome to the World of Pokémon! </h1>
       </div>
     </div>
 
   <!-- Start of About -->  
+  
+  <div class="about pt-5 mt-5 text-center border">
 
-  <div class="about pt-5 mt-5 text-center">
-    <h2>About Pokemon</h2>
-    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt suscipit atque iste architecto, provident quisquam earum, nulla tempore perferendis ab laborum labore quis in ullam!</p>
+    <h2>About Pokémon</h2>
+    <p>Pokémon are creatures of all shapes and sizes who live in the wild or alongside their human partners (called “Trainers”). During their adventures, Pokémon grow and become more experienced and even, on occasion, evolve into stronger Pokémon. Hundreds of known Pokémon inhabit the Pokémon universe, with untold numbers waiting to be discovered!</p>
 
   </div>
 
   <!-- Start of h2 -->
 
-    <div class="text-center pt-5 m-5">
+    <div id= trainers class="text-center pt-5 m-5">
       <h2>Pokemon Trainers</h2>
     </div>
 
   <!-- Start Trainers on Cards -->
 
-  <div class="d-flex p-3 m-3 row">
+  <div class="d-flex p-3 m-3 row flex-column flex-lg-row">
   
     <div class="card col m-3" style="width: 18rem;">
       <img src="IMG/Ash_Ketchum.jpg" class="card-img-top cardimg" alt="...">
       <div class="card-body">
         <h5 class="card-title">Ash Ketchum</h5>
-        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+        <p class="card-text">One of the two main protagonists. Ash's ultimate goal is to become a Pokémon Master, the greatest Pokémon Trainer ever. </p>
       </div>
     </div>
 
@@ -83,7 +87,7 @@
       <img src="img/Mistanime.jpg" class="card-img-top cardimg" alt="...">
       <div class="card-body">
         <h5 class="card-title">Misty</h5>
-        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+        <p class="card-text"> She is an aspiring Water Pokémon Master and a former traveling partner of Ash. She is also the Gym Leader of the Cerulean Gym, handing out the Cascade Badge to Trainers who defeat her. She specializes in Water-type Pokémon.</p>
       </div>
     </div>
 
@@ -91,7 +95,7 @@
       <img src="img/Brock_in_the_anime.jpg" class="card-img-top cardimg" alt="...">
       <div class="card-body">
         <h5 class="card-title">Brock</h5>
-        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+        <p class="card-text">is originally the Gym Leader of Pewter City Gym but he decided to follow his dream to become the greatest Pokémon Breeder. After his defeat against Ash Ketchum, he quickly gave up his title. He accompanied Ash on his journey for quite some time, all while trying to live up to his goal..</p>
       </div>
     </div>
   
@@ -99,20 +103,20 @@
 
   <!-- Start of h2 -->
 
-  <div class="text-center pt-5 m-5">
+  <div id="pokemon" class="text-center pt-5 m-5">
     <h2>Pokemon</h2>
   </div>
 
 
   <!-- Start Pokemon on Cards -->
 
-  <div class="d-flex p-3 m-3 row">
+  <div class="d-flex p-3 m-3 row flex-column flex-lg-row">
 
     <div class="card m-3 col" style="width: 18rem;">
       <img src="img/006.png" class="card-img-top" alt="Charzard">
       <div class="card-body">
         <h5 class="card-title">Charzard</h5>
-        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+        <p class="card-text">It spits fire that is hot enough to melt boulders. It may cause forest fires by blowing flames.</p>
       </div>
     </div>
 
@@ -120,7 +124,7 @@
       <img src="img/009.png" class="card-img-top" alt="Blastoise">
       <div class="card-body">
         <h5 class="card-title">Blastoise</h5>
-        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+        <p class="card-text">It crushes its foe under its heavy body to cause fainting. In a pinch, it will withdraw inside its shell.</p>
       </div>
     </div>
 
@@ -128,20 +132,20 @@
       <img src="img/003.png" class="card-img-top" alt="Venusaur">
       <div class="card-body">
         <h5 class="card-title">Venusaur</h5>
-        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+        <p class="card-text">Its plant blooms when it is absorbing solar energy. It stays on the move to seek sunlight.</p>
       </div>
     </div>
 
   </div>  
 
 
-  <div class="d-flex p-3 m-3 row">
+  <div class="d-flex p-3 m-3 row flex-column flex-lg-row">
 
     <div class="card m-3 col" style="width: 18rem;">
       <img src="IMG/143.png" class="card-img-top" alt="Snorlax">
       <div class="card-body">
         <h5 class="card-title">Snorlax</h5>
-        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+        <p class="card-text">It is not satisfied unless it eats over 880 pounds of food every day. When it is done eating, it goes promptly to sleep.</p>
       </div>
     </div>
 
@@ -149,7 +153,7 @@
       <img src="img/094.png" class="card-img-top" alt="Gengar">
       <div class="card-body">
         <h5 class="card-title">Gengar</h5>
-        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+        <p class="card-text">On the night of a full moon, if shadows move on their own and laugh, it must be Gengar's doing.</p>
       </div>
     </div>
 
@@ -157,7 +161,9 @@
       <img src="img/149.png" class="card-img-top" alt="Dragonite">
       <div class="card-body">
         <h5 class="card-title">Dragonite</h5>
-        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+        <p class="card-text">It's a kindhearted Pokémon. If it spots a drowning person or Pokémon, Dragonite simply must help them.
+
+        </p>
       </div>
     </div>
 
@@ -191,7 +197,7 @@
         <img src="IMG/5.jpg" class="d-block w-100" alt="...">
         <div class="carousel-caption d-none d-md-block">
           <h5>Pokémon Detective Pikachu Movie</h5>
-          <p>Some representative placeholder content for the first slide.</p>
+          <p>There are over twenty season of Pokemon and many movies to watch! </p>
         </div>
       </div>
 
@@ -199,7 +205,7 @@
         <img src="img/10.jpg" class="d-block w-100" alt="...">
         <div class="carousel-caption d-none d-md-block">
           <h5>Pokemon Go</h5>
-          <p>Some representative placeholder content for the second slide.</p>
+          <p>You can experience Pokemon on any mobile device!</p>
         </div>
       </div>
 
@@ -207,7 +213,7 @@
         <img src="img/12.jpg" class="d-block w-100" alt="...">
         <div class="carousel-caption d-none d-md-block">
           <h5>Pokemon games on Nitendo Switch</h5>
-          <p>Some representative placeholder content for the third slide.</p>
+          <p>Enjoy newer Pokemon games on the Switch!</p>
         </div>
       </div>
 
@@ -215,7 +221,7 @@
         <img src="img/9.jpg" class="d-block w-100" alt="...">
         <div class="carousel-caption d-none d-md-block">
           <h5>Pokemon games on Gameboy</h5>
-          <p>Some representative placeholder content for the third slide.</p>
+          <p>Or enjoy the nostalgic games on the Gameboy!</p>
         </div>
       </div>
 
@@ -223,7 +229,7 @@
         <img src="img/11.jpg" class="d-block w-100" alt="...">
         <div class="carousel-caption d-none d-md-block">
           <h5>Pokemon Cards</h5>
-          <p>Some representative placeholder content for the third slide.</p>
+          <p>Battle someone with Pokemon Trading cards or have fun collecting them all!</p>
         </div>
       </div>
 
@@ -243,7 +249,7 @@
 
     <!-- Start of Form -->
 
-    <div class="pt-5 text-center">
+    <div id="contact" class="pt-5 text-center">
       <h2>Contact us!</h2>
     </div> 
 
@@ -270,10 +276,15 @@
     <footer class="py-5 text-center">
 
       <div class="col py-5">
-        <i class="fa-brands fa-square-facebook fa-2xl"></i>
-        <i class="fa-brands fa-twitter fa-2xl"></i>
-        <i class="fa-brands fa-instagram fa-2xl"></i>
-        <i class="fa-brands fa-youtube fa-2xl"></i>
+
+        <a href="https://www.facebook.com/Pokemon/" target="_blank"><i class="fa-brands fa-square-facebook fa-2xl"></i></a>
+
+        <a href="https://twitter.com/Pokemon?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor" target="_blank"><i class="fa-brands fa-twitter fa-2xl"></i>
+
+        <a href="https://www.instagram.com/pokemon/?hl=en" target="_blank"></a><i class="fa-brands fa-instagram fa-2xl"></i></a>
+
+        <a href="https://www.youtube.com/channel/UCFctpiB_Hnlk3ejWfHqSm6Q" target="_blank"></a><i class="fa-brands fa-youtube fa-2xl"></i></a>
+
       </div>
       
       <div class="col">

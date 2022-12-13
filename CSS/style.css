@@ -16,6 +16,7 @@ body, html {
 .logo {
     height: 100px;
     width: 100px;
+    margin: auto;
 }
 
 .cardimg {
@@ -29,7 +30,7 @@ body, html {
   background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../IMG/Hero-img-pokemon.webp");
 
   /* Set a specific height */
-  height: 750px;
+  height: 800px;
 
   /* Position and center the image to scale nicely on all screens */
   background-position: center;
