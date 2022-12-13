@@ -2,6 +2,11 @@
     box-sizing: border-box;
 }
 
+h1 {
+    color: #FFDE00;
+    font-size: 50px;
+}
+
 img {
     max-width: 100%;
     height: auto;
@@ -27,7 +32,7 @@ body, html {
 /* The hero image */
 .hero-image {
   /* Use "linear-gradient" to add a darken background effect to the image (photographer.jpg). This will make the text easier to read */
-  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../IMG/Hero-img-pokemon.webp");
+  background-image: url("../IMG/Hero-img-pokemon.webp");
 
   /* Set a specific height */
   height: 800px;
