@@ -12,6 +12,12 @@ h1 {
     font-size: 50px;
 }
 
+p {
+    max-width: 80ch;
+    margin: auto;
+    text-align: left;
+}
+
 body, html {
     height: 100%;
     font-family: 'Open Sans', sans-serif;
