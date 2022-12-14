@@ -7,6 +7,10 @@ img {
     height: auto;
 }
 
+nav {
+    height: auto;
+}
+
 h1 {
     color: #FFDE00;
     font-size: 50px;
@@ -24,8 +28,8 @@ body, html {
 }
 
 .logo {
-    height: 100px;
-    width: 100px;
+    height: 125px;
+    width: 125px;
     margin: auto;
 }
 
